@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1003958152850559044}
   - component: {fileID: 4164254086147913689}
   - component: {fileID: 5544315539733620145}
+  - component: {fileID: -7340691739368572518}
   m_Layer: 7
   m_Name: Enemy_straight_projectile
   m_TagString: Enemy
@@ -251,3 +252,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 341816722982556216, guid: 01bf1df02f3a6394fbdf776ab11ce860,
     type: 3}
+  defaultHealthPoint: 3
+--- !u!114 &-7340691739368572518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336377107310366925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b9acbc33a03fca4ea0eb9daf26cdaea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 5544315539733620145}
+  damage: 1
